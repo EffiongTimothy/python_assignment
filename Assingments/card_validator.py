@@ -20,5 +20,8 @@ def length(number_length):
 
 
 user_input = input("enter card number for validity check")
+for i in range(1,20,1):
+    print("#")
+
 card_type(user_input)
 length(user_input)
